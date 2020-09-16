@@ -1,0 +1,121 @@
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <title>T&S</title>
+
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tes.css">
+
+    
+
+</head>
+
+<body>
+    <div id="page-container" class="main-content-boxed">
+
+
+        <!-- Main Container -->
+        <main id="main-container">
+
+
+            <!-- Hero -->
+            <div class="bg-body-light">
+                <div class="content content-full">
+                    <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
+                        <h1 class="flex-sm-fill h3 my-2">
+                            Teses & Súmulas
+                            <!--                               <small class="d-block d-sm-inline-block mt-2 mt-sm-0 font-size-base font-w400 text-muted"> (STJ em breve)</small> -->
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <!-- END Hero -->
+
+            <!--mpdf  <h2>Teses e Súmulas</h2> mpdf-->
+
+
+            <!-- Search -->
+            <div class="content" id="content-form">
+                <form method="GET" id="trib-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="keyword" id="keyword" placeholder="termo(s) de busca" required>
+                        <!-- <input type="hidden" name="keylabel"> -->
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="lupa-trib-form">
+                                <i class="fa fa-fw fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div id="radios-tribunais"> 
+                        <div class="form-check">
+                          <input class="form-check-input" 
+                                 type="radio" 
+                                 name="tribunal" 
+                                 id="stf" 
+                                 value="STF"
+                                 checked>
+                          <label class="form-check-label" for="stf">
+                            STF
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" 
+                                 type="radio" 
+                                 name="tribunal" 
+                                 id="tst" 
+                                 value="TST">
+                          <label class="form-check-label" for="tst">
+                            TST
+                          </label>
+                        </div>
+                      </div>
+
+                    <div class="input-group">
+                        <input class="btn btn-sm btn-primary" id="btn-send-trib" type="submit" value="pesquisar">
+                    </div>
+                    
+                </form>
+            </div>
+            <!-- END Search -->
+
+            <div class="spinner-border text-primary" id="spinning" role="status" style="display:none;">
+                <span class="sr-only">Buscando...</span>
+            </div>
+              
+            <!-- content -->
+            <!-- Page Content -->
+            <div class="content">
+                <!-- Results -->
+                <div class="block" id="results">
+          
+
+
+                 
+                </div>
+                <!-- END Results -->
+            </div>
+            <!-- END Page Content -->
+
+        </main>
+        <!-- END Main Container -->
+
+
+    </div>
+    <!-- END Page Container -->
+
+    <script src="js/tes.js"></script>
+</body>
+
+</html>
