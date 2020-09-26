@@ -1,8 +1,8 @@
 {
   "name": "Teses e Súmulas",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
-  "description": "Verifique se existem e quantas são as súmulas e as teses de repercussão geral no STF e no TST para o tema desejado.",
+  "description": "Verifique se existem e quantas são as súmulas e as teses de repercussão geral no STF, no TST e no STJ para o tema desejado.",
   "homepage_url": "https://maurolopes.com.br",
   "icons": {
     "16": "icons/icon16.png",
