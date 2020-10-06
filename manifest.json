@@ -1,8 +1,8 @@
 {
   "name": "Teses e Súmulas",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "manifest_version": 2,
-  "description": "Verifique se existem e quantas são as súmulas e as teses no STF, no TST, no STJ, na TNU e no TCU para o tema desejado.",
+  "description": "Verifique se existem e quantas são as súmulas e as teses no STF, no TST, no STJ, na TNU, no TCU e no CARF para o tema desejado.",
   "homepage_url": "https://maurolopes.com.br",
   "icons": {
     "16": "icons/icon16.png",

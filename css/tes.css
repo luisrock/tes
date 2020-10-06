@@ -1,5 +1,5 @@
 body {
-    height: 330px;
+    height: 370px;
     width: 400px;
     border: 1px solid grey;
 }
@@ -27,6 +27,7 @@ body {
     display: flex; 
     justify-content: flex-start; 
     padding: 15px;
+    flex-wrap: wrap;
 }
   
 .form-check {
